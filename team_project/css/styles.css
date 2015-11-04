@@ -1,0 +1,12 @@
+td {
+	border:9px solid black;
+	width:100px;
+	text-align:center;
+}
+td a {
+	display:block;
+	width:100%;
+}
+table {
+	table-layout:fixed;
+}
