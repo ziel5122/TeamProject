@@ -10,3 +10,28 @@ td a {
 table {
 	table-layout:fixed;
 }
+
+h1{
+	text-align:center;
+	background-color:  #8C001A;
+}
+
+#wrapper{
+		width:900px;
+		margin: 0 auto;
+		
+}
+
+#backgrounds{
+	background-image:url(http://hosting.otterlabs.org/migueladrian/CST336/cst336/team_project/TeamProject/team_project/img/movie.png);
+    background-size: 1400px 1800px;
+    background-repeat: no-repeat;
+}
+
+footer{
+	text-align:center;
+}
+
+#button{
+	text-align:center;
+}

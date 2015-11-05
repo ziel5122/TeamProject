@@ -21,4 +21,15 @@
 		
 		return $records;
 	}
+	
+	function getDataBySQL($sql){
+	global $conn;
+	$statement = $conn->prepare($sql);
+	$statement->execute();
+	$records = $statement->fetchALL(PDO::FETCH_ASSOC);
+	
+	return $records;
+	
+}//EndFucntion
+
 ?>
